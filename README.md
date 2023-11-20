@@ -73,36 +73,36 @@ Please note that the frequencies in the `note_list` are in Hz. You can find the 
 ### Python Code:
 ### Imperative Style:
 
-### POPL Aspect: The Python script follows an imperative paradigm where functions modify shared state or objects directly.
+POPL Aspect: The Python script follows an imperative paradigm where functions modify shared state or objects directly.
 Code Pointer: The loop in write_wave_file that appends data directly to the wav_file.
-Mutable Data Structures:
+### Mutable Data Structures:
 
-### POPL Aspect: Usage of mutable lists (sine_list) and in-place operations.
+POPL Aspect: Usage of mutable lists (sine_list) and in-place operations.
 Code Pointer: List manipulation and appending in the gen_sine_wave function.
 Haskell Code:
-Functional Paradigm:
+### Functional Paradigm:
 
-### POPL Aspect: Utilizes higher-order functions, immutability, and composability.
+POPL Aspect: Utilizes higher-order functions, immutability, and composability.
 Code Pointer: Functions like map, zipWith3 for composing the sound waves, maintaining immutability throughout.
-Type Safety:
+### Type Safety:
 
-### POPL Aspect: Strong type system ensuring type correctness and reducing runtime errors.
+POPL Aspect: Strong type system ensuring type correctness and reducing runtime errors.
 Code Pointer: Type annotations (Float, Samples, etc.) ensuring soundness across the codebase.
-Lazy Evaluation:
+### Lazy Evaluation:
 
-### POPL Aspect: Haskell's lazy evaluation strategy enables handling infinite streams efficiently.
+POPL Aspect: Haskell's lazy evaluation strategy enables handling infinite streams efficiently.
 Code Pointer: Lazy loading of byte strings in save function via B.toLazyByteString.
-Pure Functions:
+### Pure Functions:
 
-### POPL Aspect: Emphasizes pure functions without side effects.
+POPL Aspect: Emphasizes pure functions without side effects.
 Code Pointer: Functions like freq, note purely generate sound waves without affecting external state.
-Static Typing:
+### Static Typing:
 
-### POPL Aspect: Haskell's static typing offers compile-time guarantees, reducing runtime errors.
+POPL Aspect: Haskell's static typing offers compile-time guarantees, reducing runtime errors.
 Code Pointer: Type declarations (type, type aliases) enforce strict typing.
 ### Difficulties Faced:
-### Transitioning Paradigms: Moving from an imperative approach in Python to a functional approach in Haskell might involve a learning curve for those accustomed to imperative programming.
-### Understanding Laziness: Haskell's laziness might pose challenges in predicting and managing memory usage due to its non-strict evaluation strategy.
+Transitioning Paradigms: Moving from an imperative approach in Python to a functional approach in Haskell might involve a learning curve for those accustomed to imperative programming.
+Understanding Laziness: Haskell's laziness might pose challenges in predicting and managing memory usage due to its non-strict evaluation strategy.
 Each language's design principles significantly influence how the music generation task is approached, making a comparison between imperative Python and functional Haskell an interesting exploration of POPL aspects.
 
 ## Comparison: Haskell vs. Python Solutions
