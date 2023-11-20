@@ -147,7 +147,9 @@ POPL Aspect: Haskell's static typing offers compile-time guarantees, reducing ru
 Code Pointer: Type declarations (type, type aliases) enforce strict typing.
 ### Difficulties Faced:
 Transitioning Paradigms: Moving from an imperative approach in Python to a functional approach in Haskell might involve a learning curve for those accustomed to imperative programming.
+
 Understanding Laziness: Haskell's laziness might pose challenges in predicting and managing memory usage due to its non-strict evaluation strategy.
+
 Each language's design principles significantly influence how the music generation task is approached, making a comparison between imperative Python and functional Haskell an interesting exploration of POPL aspects.
 
 ## Comparison: Haskell vs. Python Solutions
