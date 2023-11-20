@@ -1,4 +1,4 @@
-### Algorithmic Music Generation in Haskell
+## Algorithmic Music Generation in Haskell
 ## Problem Statement
 The primary goal of this project is to implement algorithmic music generation in Haskell, specifically focusing on creating melodies like "Happy Birthday." Exploring the Principles of Programming Languages (POPL) angle involves leveraging functional programming paradigms, mathematical concepts for sound synthesis, and possibly showcasing a domain-specific language (DSL) for musical compositions. While similar solutions might exist, this implementation aims to demonstrate the expressive power of the functional paradigm and efficiency in music generation, differentiating itself through optimization and clarity in code design.
 
