@@ -1,4 +1,4 @@
-# Algorithmic Music Generation in Haskell and Comparitive Analaysis with Pytho
+# Algorithmic Music Generation in Haskell and Comparitive Analaysis with Python
 
 ## Problem Statement
 The problem at hand involves generating music, specifically the "Happy Birthday" melody, using different programming paradigms - Python's imperative approach and Haskell's functional approach.
