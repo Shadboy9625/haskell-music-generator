@@ -24,14 +24,20 @@ For the music generation solutions in Python and Haskell, the architecture is re
 **Components**: The Python solution uses imperative programming to generate a waveform directly and write it to a .wav file.
 
 Components: The Haskell solution employs functional programming to generate the music waveform.
+
 Functionalities:
+
 Functions for note generation (freq, note) and music composition (happyBirthday).
+
 save: Saves the generated music to a binary file.
+
 play: Executes the music using an external player (ffplay).
+
 Integration: Functions are combined in the main IO action for execution.
 ### Reusability and Development:
 
 Python: The Python solution is primarily self-contained, developed from scratch without relying on external libraries, just basic librarires are used.
+
 Haskell: The Haskell solution uses standard libraries (Data.ByteString.Lazy, System.Process, etc.) to handle file I/O and external command execution.
 ### Testing Component:
 
@@ -58,6 +64,7 @@ Haskell Solution:
                |
                V
         Output: output.bin
+        
 Both solutions involve sequential operations to generate music and produce respective output files (output.wav for Python and output.bin for Haskell).
 
 ## Music Generation Process
@@ -182,7 +189,9 @@ For the music generation solutions in Python and Haskell, demonstrating their ef
 ### Tests Conducted:
 
 Execution Time: Measure the time taken by each solution to generate the melody.
+
 Output File Size: Compare the size of the generated output files (output.wav and output.bin).
+
 Audio Quality: Subjectively evaluate the audio quality and clarity of the generated melodies.
 ### Dataset Used:
 
@@ -193,16 +202,21 @@ Conducting benchmarks involves running the scripts and recording metrics for eac
 ### Validation & Proof Points:
 
 Execution Time: If the Haskell solution generates the music faster than Python, it aligns with the initial problem statement of showcasing Haskell's efficiency over Python in functional programming tasks.
+
 Output File Size: Comparing the file sizes can indicate the efficiency of the encoding methods used in both solutions.
+
 Audio Quality: Subjective evaluation is based on how accurately the generated melody matches the expected "Happy Birthday" tune.
 ### Validation:
 
 Ensured that the audio files are audible and clearly recognizable as the "Happy Birthday" tune.
+
 Confirmed that Haskell's execution time is notably lower than Python's, demonstrating its efficiency in handling functional music generation tasks.
 ### Convincing Proof Points:
 
 The clear differences in execution time and potentially file size between the two solutions are convincing indicators of the performance disparity.
+
 Subjective assessment of the audio quality can affirm the accuracy and fidelity of both implementations.
+
 These empirical results and validations aim to provide tangible evidence supporting the superiority of Haskell in handling functional music generation over the Python implementation.
 
 ## Made by:
