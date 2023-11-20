@@ -5,16 +5,6 @@ The primary goal of this project is to implement algorithmic music generation in
 ### Software Architecture
 The software architecture follows a modular structure where components handle different aspects of music generation. Core functionalities include frequency calculation, waveform generation, and file I/O for playback. Parts of the code utilize libraries such as Data.ByteString for file operations. Testing predominantly occurs locally, utilizing Haskell's testing frameworks if applicable. The architecture doesn’t involve a client-server model or databases.
 
-### POPL Aspects
-Functional Paradigm: Functional programming constructs are evident in functions like note, freq, and save, emphasizing immutable data and higher-order functions for sound synthesis.
-Type System & Abstractions: Haskell's strong type system ensures correctness in musical representations and sound generation.
-Recursion & List Comprehension: Use of recursion and list comprehensions to handle note sequences and waveform generation in freq function.
-Monads & Effects: Monadic concepts in handling I/O operations with IO monad for file writing and external tool invocation.
-Abstraction & Reusability: The code emphasizes abstraction and reusability, employing higher-order functions and polymorphic types for modularity.
-Challenges Faced: Difficulties were encountered in translating musical theory into code and handling complex waveform generation while adhering to the functional paradigm.
-Results and Tests Conducted
-The project underwent comprehensive testing, using predefined melodies such as "Happy Birthday" for validation. Benchmarks assessed performance improvements in generating music compared to alternative approaches. Graphs and metrics illustrate the efficiency and accuracy of the algorithm in aligning with the original problem statement.
-
 ### Music Generation Process
 
 The music generation process involves the following key components:
